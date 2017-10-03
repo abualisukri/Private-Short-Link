@@ -306,7 +306,8 @@ $short_url = $bitly_response->data->url;
       <h2>Your Short Link Here</h2>      
 	  <p><?php echo $title; ?> - (<?php echo $year; ?>)(<?php echo $quality; ?>)</p>
       <p>Link : <a href="<?php echo $short_url; ?>"><span><?php echo $short_url; ?></span></a></p> 
-	   <p>Tutorial : <span>bit.ly/tutorial_muat_turun</span></p>            
+	   <p>Tutorial : <span>bit.ly/tutorial_muat_turun</span></p> 
+	   <p>Telegram : <span>t.me/layansubmalay</span></p> 
 	   <br><br>
          <span class="label label-warning">By Ali Sukri</span> 
 
