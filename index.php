@@ -310,8 +310,7 @@ $short_url = $bitly_response->data->url;
 	   <p>Tutorial : <span>bit.ly/cara_muat_turun</span></p> 
 	   <p>Join Us : <span>t.me/layanmoviesubmalay</span></p> 
 	   <br><br>
-         <span class="label label-warning">Email: movisubmalay@tota.io</span> 
-		 <span class="label label-warning">Password: m0v1subm4l4y</span> 
+         <span class="label label-warning">create : alisukri</span> 
 
     </div>   
   </div>
