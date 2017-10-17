@@ -285,8 +285,8 @@ $link = $_POST['link'];
 $long_url = urlencode($link);
 
 //API ID
-$bitly_login = 'movisubmalay'; 
-$bitly_apikey = 'R_c1e0557b7ea04e349a50864ed201ec26';
+$bitly_login = 'abualisukri'; 
+$bitly_apikey = 'R_a727c76409c74bf6a6bf6ed1f759657e';
 
 //GET API ID AND SHORT
 $bitly_response = json_decode(file_get_contents("http://api.bit.ly/v3/shorten?login=$bitly_login&apiKey=$bitly_apikey&longUrl=$long_url&format=json"));
@@ -308,7 +308,7 @@ $short_url = $bitly_response->data->url;
 	  <p>Sarikata Malay <span>(Stream)</span></p> 
       <p>Link : <a href="<?php echo $short_url; ?>"><span><?php echo $short_url; ?></span></a></p> 
 	   <p>Tutorial : <span>bit.ly/cara_muat_turun</span></p> 
-	   Join Us : <span>t.me/layanmoviesubmalay</span> 
+	   <p>Join Us : <span>t.me/layanmoviesubmalay</span></p> 
 	   <br><br>
          <span class="label label-warning">Email: movisubmalay@tota.io</span> 
 		 <span class="label label-warning">Password: m0v1subm4l4y</span> 
