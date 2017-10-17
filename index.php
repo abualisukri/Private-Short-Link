@@ -308,7 +308,7 @@ $short_url = $bitly_response->data->url;
 	  <p>Sarikata Malay <span>(Stream)</span></p> 
       <p>Link : <a href="<?php echo $short_url; ?>"><span><?php echo $short_url; ?></span></a></p> 
 	   <p>Tutorial : <span>bit.ly/cara_muat_turun</span></p> 
-	   <p>Join Us : <span>t.me/layanmoviesubmalay</span></p> 
+	   Join Us : <span>t.me/layanmoviesubmalay</span> 
 	   <br><br>
          <span class="label label-warning">Email: movisubmalay@tota.io</span> 
 		 <span class="label label-warning">Password: m0v1subm4l4y</span> 
